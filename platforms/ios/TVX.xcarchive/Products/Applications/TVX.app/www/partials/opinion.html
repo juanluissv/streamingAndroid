@@ -1,0 +1,98 @@
+
+      <div class="mobile-menu panib">
+         <ul class="bottom-navbar-nav">
+            <li class="bottom-nav-item ">
+               <a href="#/tv" class="bottom-nav-link">
+               <i class="fas fa-fw fa-home"></i>
+               <span>TV</span>
+               </a>
+            </li>
+            <li class="bottom-nav-item ">
+               <a href="#/programas" class="bottom-nav-link">
+               <i class="fas fa-fw fa-video"></i>
+               <span>Programa</span>
+               </a>
+            </li>
+            <li class="bottom-nav-item">
+               <a href="#/noticias" class="bottom-nav-link">
+               <i class="fas fa-fw fa-rss"></i>
+               <span>Noticias</span>
+               </a>
+            </li>
+            <li class="bottom-nav-item active">
+               <a href="#/opinion" class="bottom-nav-link">
+               <i class="fas fa-fw fa-users"></i>
+               <span>Opinion</span>
+               </a>
+            </li>
+            <li class="bottom-nav-item">
+               <a href="#/videos" class="bottom-nav-link">
+               <i class="fas fa-fw fa-tv"></i>
+               <span>Videos</span>
+               </a>
+            </li>
+         </ul>
+      </div>
+
+     <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top  mynav">
+         &nbsp;&nbsp;&nbsp;&nbsp; 
+         <a class="navbar-brand mr-1" href="index.html">
+            <img class="img-fluid logimg" src="https://directostv.teleame.com/wp-content/uploads/2016/06/TVX-El-Salvador-en-vivo-Online.png"></a>
+      </nav>
+
+<ion-content class="paintb">
+
+<br><br><br>
+      <div id="wrapper">
+         <div id="content-wrapper">
+            <div class="container-fluid">
+
+
+               <div class="video-block section-padding">
+                  <div class="row-full">
+
+
+                     <ul class="row-full  progvideos">
+
+                     <li class="col-sm-4 painl" ng-repeat="video in results track by $index">
+
+                     <a href="#/player13/{{video.mediaid}}/{{theurl}}">
+
+                     <div class="video-card ">
+
+                     <div class="video-card-image ">
+                     <img class="img-fluid" ng-src="{{ video.image }}">
+                     </div>
+                     <div class="video-card-body painl">
+                     <div class="video-title text-center"> 
+                       {{ video.title }}
+                     </div>
+
+
+                     </div>
+                     </div>
+                     </a>
+
+                     </li>
+                     </ul>
+
+
+
+
+
+
+                     
+                  </div>
+               </div>
+
+
+
+            </div>
+            <!-- /.container-fluid -->
+
+         </div>
+         <!-- /.content-wrapper -->
+      </div>
+      <!-- /#wrapper -->
+
+      </ion-content>

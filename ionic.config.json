@@ -1,0 +1,14 @@
+{
+  "name": "blankApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1",
+  "id": "b121d3d1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}
