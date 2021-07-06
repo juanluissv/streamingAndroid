@@ -7,7 +7,7 @@ Users can watch TV on their android and IPhones phones, browse tv shows and cate
 
 Technology use:
 
-Ionic / Angular JS
+Ionic / Angular JS / JWPlayer API
 
 
 
