@@ -1,26 +1,13 @@
-Ionic App Base
-=====================
+<h2 >Video Streaming Android App </h2>
 
-A starting project for Ionic that optionally supports using custom SCSS.
+ <img src="https://raw.githubusercontent.com/juanluissv/streamingAndroid/master/screen.png" />
 
-## Using this project
+<p> Demo Android / IOS App </p>
+Users can watch TV on their android and IPhones phones, browse tv shows and categories play, pause, rewind, foward video content and cast to Smart TVs with chromecast 
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+Technology use:
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
+Ionic / Angular JS
 
-```bash
-$ npm install -g ionic
-```
 
-Then run: 
 
-```bash
-$ ionic start myProject tabs
-```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
-# streamingAndroid
